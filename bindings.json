@@ -12,6 +12,9 @@
     "Alt-m": "EndOfLine",
     "Alt-s": "Save",
     "Alt-q": "Quit",
+    "Alt-z": "Undo",
+    "Alt-c": "Copy",
+    "Alt-v": "Paste",
     "Alt-d": "SelectLine,Delete",
     "Alt-u": "VSplit",
     "Alt-y": "HSplit",
@@ -20,16 +23,25 @@
     "Alt-g": "command-edit:goto ",
     "Alt-r": "command-edit:replaceall ",
     "Alt-x": "ToggleMacro",
-    "Alt-i": "PlayMacro",
+    "Alt-.": "PlayMacro",
+    "Alt-i": "DeleteWordRight,DeleteWordLeft",
     "CtrlUnderscore": "lua:comment.comment",
     "Alt-Down": "FindNext",
     "Alt-Up": "FindPrevious",
     "command": {
         "Alt-q": "AbortCommand",
+    	"Alt-h": "CursorLeft",
+	    "Alt-l": "CursorRight",
+	    "Alt-n": "StartOfLine",
+	    "Alt-m": "EndOfLine",
+	    "Alt-s": "Save",
+	    "Alt-v": "Paste",
+	    "Alt-c": "Copy",
+	    "Alt-i": "DeleteWordLeft",
+	    
     },
     "terminal": {
         "\u003cAlt-o\u003e": "NextSplit",
         "\u003cAlt-q\u003e": "Exit",
-        "\u003cAlt-f\u003e": "FindLiteral",
     }
 }
