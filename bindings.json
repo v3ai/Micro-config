@@ -17,6 +17,7 @@
     "Alt-v": "Paste",
     "Alt-x": "Cut",
     "Alt-d": "SelectLine,Delete",
+    "Alt-a": "SelectAll",
     "Alt-u": "VSplit",
     "Alt-y": "HSplit",
     "Alt-o": "NextSplit",
